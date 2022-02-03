@@ -1,0 +1,107 @@
+/* resets */
+body,
+section,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(images/bg-intro-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.accent {
+  font-weight: bold;
+}
+
+.words {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.intro-container a {
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+  width: 90%;
+}
+
+.claim a {
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  margin: 5px 10px;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+span a {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1440px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vh;
+  }
+
+  form {
+    display: flex;
+    flex: 1;
+  }
+
+  .intro-container {
+    display: flex;
+    flex: 1;
+  }
+}

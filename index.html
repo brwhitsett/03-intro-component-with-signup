@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <main>
+      <section class="intro-container">
+        <p class="intro-text">Learn to code by watching others</p>
+        <p class="intro-text words">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+        <a href="#">
+          <div class="accent">Try it free 7 days</div>
+          then $20/mo. thereafter</a
+        >
+      </section>
+      <form action="trial-form">
+        <label for="first-name"></label>
+        <input
+          type="text"
+          name="first-name"
+          id="first-name"
+          placeholder="First Name"
+        />
+        <label for="last-name"></label>
+        <input
+          type="text"
+          name="last-name"
+          id="last-name"
+          placeholder="Last Name"
+        />
+        <label for="trial-email"></label>
+        <input
+          type="email"
+          name="trial-email"
+          id="trial-email"
+          placeholder="Email Address"
+        />
+        <label for="pass"></label>
+        <input type="password" name="pass" id="pass" placeholder="Password" />
+        <div class="claim"><a href="#">Claim your free trial</a></div>
+        <p>
+          By clicking the button, you are agreeing to our
+          <span><a href="#">Terms and Services</a></span>
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
